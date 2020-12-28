@@ -8,9 +8,14 @@ public class AdventureGame : MonoBehaviour
 
     [SerializeField] Text textComponent; // SerializeField makes textcomponent available in Unity engine
     // Start is called before the first frame update
+    [SerializeField] State startingState;
+
+    State state;
+
     void Start()
     {
-        textComponent.text = "hello world";
+        state = startingState;
+        textComponent.text = state.GetStateStory();
 
          
     }
