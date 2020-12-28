@@ -20,3 +20,6 @@ MonoBehaviour:
     as a civilian his gilded implant gave away his seniority.\r An explosion sounded
     somewhere in the atmosphere, but it went mostly ignored by the population.\r\n\rWhat
     do you do?\r\n1. Watch the security operation playout\r\n2. Start your mission"
+  nextStates:
+  - {fileID: 11400000, guid: fb60c9f30fafa5848b2faa09365ac12c, type: 2}
+  - {fileID: 11400000, guid: aadb39c377cb761428625d213be412c0, type: 2}
