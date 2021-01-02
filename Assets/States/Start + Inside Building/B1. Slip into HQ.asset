@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902a5de67c4b0944b75badcd67a421d, type: 3}
+  m_Name: B1. Slip into HQ
+  m_EditorClassIdentifier: 
+  storyText: "The agents set upon the protestors quickly and in the ensuing chaos
+    you slip through the detail guarding the entrance to the HQ.\r\n\rThe bottom
+    floor of the HQ has been evacuated, presumably out of fear, in equal parts for
+    the protestors and security forces, for the ensuing clash outside. The lower
+    floor guards barracks are across the room and are unattended as the security
+    forces rush to join their comrades outside.\r\n\rAlthough the elevators are disabled,
+    you notice a door to the fire stairs.\r\n\rWhat do you do now?\r\n1. Head towards
+    the guard barracks\r\n\r2. Use the fire stairs to move up"
+  nextStates:
+  - {fileID: 11400000, guid: c7253c0cc28dba8448b460c6207f86e2, type: 2}
+  - {fileID: 11400000, guid: 4d3eaa6aa21a9754095f2634f1f4cb7f, type: 2}

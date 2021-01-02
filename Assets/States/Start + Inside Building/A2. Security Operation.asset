@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902a5de67c4b0944b75badcd67a421d, type: 3}
+  m_Name: A2. Security Operation
+  m_EditorClassIdentifier: 
+  storyText: 'The agents set upon the protestors with impeccable brutality. The leaders
+    are quickly incapacitated as the rest of the protestors are encircled by uniformed
+    reinforcements that appear to stream from everywhere: neighboring houses, invisible
+    alleyways, some even seem to appear out of thin air, their weapons readily aimed
+    at the shouting protestors.
+
+    
+
+    The previous hustle of the civilian
+    life seems to stop as many scamper out of the vice the agents have created. Most
+    stare quietly while some shout slogans of solidarity with the protestors and
+    defiance against the Big Corp. '
+  nextStates: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902a5de67c4b0944b75badcd67a421d, type: 3}
+  m_Name: A1. Start
+  m_EditorClassIdentifier: 
+  storyText: "The protestors finished their march at the entrance to the BigCorp
+    headquarters.\r\n\rThey were mostly ignored by passersby but the plain clothes
+    agents circled around them, their formation every closing about the ignorant
+    prey.\r\n\rI watched for a time as one agent, standing at a distance from the
+    rest, signalled to them. Doubtless he was the Captain of the team, although dressed
+    as a civilian his gilded implant gave away his seniority.\r An explosion sounded
+    somewhere in the atmosphere, but it went mostly ignored by the population.\r\n\rWhat
+    do you do?\r\n1. Watch the security operation playout\r\n2. Use the operation
+    as distraction to slip into the HQ"
+  nextStates:
+  - {fileID: 11400000, guid: 803566b39c194e84db64bb5c29cfeb57, type: 2}
+  - {fileID: 11400000, guid: 1f4a67f8b4048f141b90f7084be1ad6a, type: 2}
