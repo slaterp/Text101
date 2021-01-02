@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902a5de67c4b0944b75badcd67a421d, type: 3}
+  m_Name: C1. Elevator
+  m_EditorClassIdentifier: 
+  storyText: 'The guard keycard opens the elevator. You press to go up to the 32nd
+    floor but are prompted for a passcode.
+
+    
+
+    What do you do?
+
+    
+
+    1.
+    Guess the passcode.
+
+    
+
+    2. Chose a different floor.'
+  nextStates:
+  - {fileID: 11400000, guid: 4c9b27b73254e72458a931efd45a933b, type: 2}
+  - {fileID: 11400000, guid: ff78d5a658af4d049825928ae6b6b400, type: 2}

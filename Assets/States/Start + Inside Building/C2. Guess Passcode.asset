@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902a5de67c4b0944b75badcd67a421d, type: 3}
+  m_Name: C2. Guess Passcode
+  m_EditorClassIdentifier: 
+  storyText: 'You enter ''9999'' into the terminal. As you press enter, a blisteringly
+    loud siren blasts into your ear. In the confinement of the elevator the sound
+    is magnified 1000x and you are hit by waves and waves of noise. You feel the
+    elvator jolt to a stop and barely notice as the doors open. The sound has stopped
+    but by now you barely maintain a thread of consciousness. The last thing you
+    see are the boots as the elevator door opens.
+
+    
+
+    Press 1. to continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 46b6a86d15953934fa455e39cc4cc235, type: 2}
